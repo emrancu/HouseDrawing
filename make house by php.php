@@ -9,9 +9,7 @@ width:1500px;
 float:left;
 text-align:center;
 }
-.piramit>.wn{
-	box-shadow: 1px 4px 0px 1px rgba(207,221,171,.8);
-}
+ 
 </style>
 </head>
 <body style="height:3000px">
@@ -49,7 +47,7 @@ text-align:center;
 			
            $bg = imagecolorallocate($this->image,200,50,100);
            imagefilledrectangle($this->image,0,0,75,38,$bg);
-		  // ps_set_border_color ($bg ,22,44,255 );
+		   
 			// Begin capturing the byte stream
 			ob_start();
 
