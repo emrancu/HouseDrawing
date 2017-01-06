@@ -2,7 +2,7 @@
 <?php 
 $col=11;
 $row=($col*2)+1;
- $start=(($row)/2)-1;
+ $start=(($row)/2);
 $amountofstar=1;
 for($i=1;$i<=$col;$i++){
  
