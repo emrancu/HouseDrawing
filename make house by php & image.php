@@ -25,7 +25,7 @@ text-align:center;
 	 	if($i==19){
 		echo '<p style="margin-left: 101px;margin-right: 101px;padding: 0px;margin-top: -13px;box-shadow: 1px 16px 9px 2px #0e0d0d;"> </p>';
 	}
-	echo '<img src="brick.png"/>' ;
+	echo '<img src="img/brick.png"/>' ;
 	
 	if($i>18){
 		$k=16;
@@ -38,21 +38,21 @@ text-align:center;
 	
 		if($i>21 && $i<26 ){
 			if($j>1 && $j<4 || $j>6 && $j<10 || $j>12 && $j<15 ){// widnow & door(4 column)
-				echo '<img src="brick2.png" class="wn"/>' ;
+				echo '<img src="img/brick2.png" class="wn"/>' ;
 			}else{
-				echo '<img src="brick.png"/>' ;
+				echo '<img src="img/brick.png"/>' ;
 			}
 			
 		}elseif($i>25 && $i<29 ){// door
 			
 		if( $j>6 && $j<10 ){
-				echo '<img src="brick2.png" class="wn" />' ;
+				echo '<img src="img/brick2.png" class="wn" />' ;
 			}else{
-				echo '<img src="brick.png"/>' ;
+				echo '<img src="img/brick.png"/>' ;
 			}
 			
 		}else{
-			echo '<img src="brick.png"/>' ;
+			echo '<img src="img/brick.png"/>' ;
 		}
 		
 		
